@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-node('global') {
+node('master') {
 
     stage('Checkout') {
         checkout(scm)
